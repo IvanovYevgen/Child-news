@@ -20,12 +20,11 @@ class HomeScreenTab extends StatelessWidget {
           fontSize: 14,
           fontWeight: FontWeight.w600,
         ),
-        indicator:
-       ShapeDecoration(
-        shape: UnderlineInputBorder(
-          borderSide: BorderSide(width: 3, color: Color(0xFF3bb4c1), style: BorderStyle.solid),
-        )
-       ),
+        indicator: ShapeDecoration(
+            shape: UnderlineInputBorder(
+          borderSide: BorderSide(
+              width: 3, color: Color(0xFF3bb4c1), style: BorderStyle.solid),
+        )),
         onTap: functionForTabs,
         tabs: <Widget>[
           Tab(

@@ -1,4 +1,4 @@
-import 'package:child_news/NewsPage.dart';
+import 'package:child_news/screens/NewsPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,4 +15,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
